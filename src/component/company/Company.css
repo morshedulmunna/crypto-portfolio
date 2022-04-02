@@ -1,3 +1,18 @@
 .companay {
   margin-top: 20rem;
 }
+
+.companay p {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 30.05px;
+  text-align: center;
+}
+
+.companyLogo {
+  margin-top: 10px;
+  margin-left: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
