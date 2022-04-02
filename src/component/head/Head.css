@@ -1,0 +1,36 @@
+.Header {
+  background-color: var(--primary-color);
+  min-height: 94vh;
+  background-image: url("../../images/bg-back.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0px;
+}
+
+.head__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 64vh;
+}
+.head__content h1 {
+  color: var(--white);
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.head__content span {
+  display: block;
+}
+
+.head__content p {
+  color: var(--white);
+  width: 632px;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 2rem;
+}
+
+.head__button {
+}
