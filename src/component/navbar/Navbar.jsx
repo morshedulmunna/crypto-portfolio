@@ -11,7 +11,7 @@ const Navbar = () => {
       <div className="container nav">
         <p>MR MUNNA</p>
 
-        <ul>
+        <ul className={open ? "right0" : "right100"}>
           <li className="dropdown">
             <span>
               Product
