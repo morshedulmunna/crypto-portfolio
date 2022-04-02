@@ -1,5 +1,5 @@
 import "./Navbar.css";
-import { BsArrowDownShort } from "react-icons/bs";
+import { IoIosArrowDown } from "react-icons/io";
 
 const Navbar = () => {
   return (
@@ -12,7 +12,7 @@ const Navbar = () => {
             <span>
               Product
               <i>
-                <BsArrowDownShort />
+                <IoIosArrowDown />
               </i>
             </span>
             <div className="dropdown-content">
@@ -24,7 +24,7 @@ const Navbar = () => {
             <span>
               Template
               <i>
-                <BsArrowDownShort />
+                <IoIosArrowDown />
               </i>
             </span>
             <div className="dropdown-content">
