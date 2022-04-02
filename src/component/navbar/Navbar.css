@@ -38,7 +38,7 @@
   justify-content: space-between;
   align-items: center;
   height: 52px;
-  padding: 28px 0px;
+  padding: 28px 32px;
   position: sticky;
   top: 0;
   z-index: 999;
@@ -82,4 +82,62 @@
 .toggler {
   font-size: 20px;
   color: var(--white);
+  display: none;
+}
+
+/*___________ For Tablte Version Responsive ____________ */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+}
+
+/* _______ For Mobile Version Responsive ________ */
+@media screen and (min-width: 769px) {
+}
+
+/* _______ For Mobile Version Responsive ________ */
+@media screen and (max-width: 769px) {
+  .sing-in-up-btn {
+    display: none;
+  }
+  .nav > ul {
+    position: absolute;
+    top: 55px;
+    right: 0;
+    line-height: 5;
+    width: 50%;
+    height: 100vh;
+    flex-direction: column;
+    background-color: var(--primary-color);
+  }
+  .toggler {
+    display: block;
+  }
+  .dropdown-content {
+    right: 90px;
+    top: 25px;
+  }
+}
+
+/*____________________________________________________________ All Device Responsive Formate ___________________________________________________________ */
+/*__________________ Destop for Small Monitor Layout __________________*/
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+}
+
+/*__________________ Tablet Layout __________________*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+}
+
+/*__________________ Mobile Layout __________________*/
+@media only screen and (max-width: 767px) {
+}
+
+/* __________________Wide Mobile Layout__________________ */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+}
+
+/* __________________ Mobile Layout __________________*/
+@media only screen and (min-width: 320px) and (max-width: 425px) {
+}
+
+/* __________________Mobile Layout __________________*/
+@media only screen and (min-width: 0px) and (max-width: 319px) {
 }
