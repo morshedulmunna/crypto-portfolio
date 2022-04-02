@@ -13,6 +13,7 @@
   justify-content: center;
   align-items: center;
   min-height: 64vh;
+  position: relative;
 }
 .head__content h1 {
   color: var(--white);
@@ -49,13 +50,13 @@
 
 #play-icon {
   color: var(--white);
-  height: 80px;
-  width: 80px;
+  height: 60px;
+  width: 60px;
   background-color: #22d497;
   border-radius: 50%;
 }
 #play-icon i {
-  font-size: 80px;
+  font-size: 60px;
   display: flex;
   align-content: center;
   justify-content: center;
@@ -68,4 +69,9 @@
   margin-left: 1rem;
   border: none;
   cursor: pointer;
+}
+
+.head__content img {
+  position: absolute;
+  top: 600px;
 }
