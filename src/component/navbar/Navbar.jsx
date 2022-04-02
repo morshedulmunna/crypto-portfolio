@@ -1,7 +1,11 @@
 import "./Navbar.css";
 import { IoIosArrowDown } from "react-icons/io";
+import { FaBars, FaTimes } from "react-icons/fa";
+import { useState } from "react";
 
 const Navbar = () => {
+  const [open, setOpen] = useState(false);
+
   return (
     <div className="Navbar">
       <div className="container nav">
@@ -38,6 +42,10 @@ const Navbar = () => {
         <div className="sing-in-up-btn">
           <button className="btn sign-in">Sign In</button>
           <button className="btn start-free">Start Free</button>
+        </div>
+
+        <div onClick={() => setOpen(!open)} className="toggler">
+          {open ? <FaTimes /> : <FaBars />}
         </div>
       </div>
     </div>
