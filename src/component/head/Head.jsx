@@ -1,4 +1,5 @@
 import "./Head.css";
+import { BsPlayFill } from "react-icons/bs";
 
 const Head = () => {
   return (
@@ -12,8 +13,15 @@ const Head = () => {
             End-to-end payments and financial management in a single solution.
             Meet the right platform to help realize.
           </p>
-          <button>Get Start</button>
-          <button>Get Start</button>
+          <div className="button">
+            <button className="Start">Get Start</button>
+            <div id="play-icon">
+              <i>
+                <BsPlayFill />
+              </i>
+            </div>
+            <button id="how-works">See How it Works</button>
+          </div>
         </div>
       </div>
     </>

@@ -31,6 +31,41 @@
   font-size: 20px;
   margin-bottom: 2rem;
 }
+.head__content .button {
+  display: flex;
+  align-items: center;
+}
 
-.head__button {
+.head__content .Start {
+  cursor: pointer;
+  background-color: var(--orange);
+  border: none;
+  margin-right: 2rem;
+  color: var(--white);
+  font-size: 20px;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+}
+
+#play-icon {
+  color: var(--white);
+  height: 80px;
+  width: 80px;
+  background-color: #22d497;
+  border-radius: 50%;
+}
+#play-icon i {
+  font-size: 80px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.head__content #how-works {
+  font-size: 20px;
+  background-color: transparent;
+  color: var(--white);
+  margin-left: 1rem;
+  border: none;
+  cursor: pointer;
 }
