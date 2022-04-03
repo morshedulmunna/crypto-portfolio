@@ -32,6 +32,9 @@
   background-color: var(--primary-color);
   background-image: url("../../images/bg-back.png");
   background-size: cover;
+  position: sticky;
+  top: 0;
+  z-index: 999;
 }
 .nav {
   display: flex;
@@ -39,9 +42,6 @@
   align-items: center;
   height: 52px;
   padding: 28px 32px;
-  position: sticky;
-  top: 0;
-  z-index: 999;
 }
 .nav p {
   font-weight: 700;
